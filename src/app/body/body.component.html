@@ -1,0 +1,30 @@
+<div class="container mt-3">
+    <h1>¿Qué es?</h1>
+    <P>Una combinación de n objetos tomados de un x, son todas las formas que sin importar el orden,  se van a obtener los objetos. </P>
+        <img src="https://economipedia.com/wp-content/uploads/Combinatoria-sin-repetici%C3%B3n-f%C3%B3rmula-1.jpg">
+    <p></p>
+    <h1>Aplicativo</h1>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="mb-3">
+                <label for="cantidad" class="form-label">Cantidad n</label>
+                <input type="number" class="form-control" [(ngModel)] = "cantidad_n"  id="exampleFormControlInput1" placeholder="Ingrese el K">
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="mb-3">
+                <label for="cantidad" class="form-label">muestra x</label>
+                <input type="number" class="form-control" [(ngModel)] = "cantidad_x" id="exampleFormControlInput1" placeholder="Ingrese el n">
+              </div>
+        </div>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-dark" type="button" (click)="combinatoriaC ()">Calcular</button>
+      </div>
+    <h5 class="text-center"> 
+        <span>La combinatoria tiene un valor de: </span>
+        <span class="badge bg-success">{{combinatoria}}</span>
+    </h5>
+</div>

@@ -1,0 +1,21 @@
+.container{
+    height :  86vh;
+    text-align: left;
+    align-content: center;
+    
+}  
+.container img{
+    display:block;
+    margin: auto;
+}
+.container p{
+    text-align: center;
+    font-size: 140%;
+}
+.container h6{
+    text-align: justify;
+}
+.badge{
+    margin: 3px;
+    font-size: 150%;
+}
