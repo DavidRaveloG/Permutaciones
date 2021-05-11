@@ -6,5 +6,6 @@
 	color: #fff;
 	background:black;
     align-self: flex-end;
+	display: flex;
 	
 }
