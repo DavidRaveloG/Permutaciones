@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-body',
-  templateUrl: './body.component.html',
-  styleUrls: ['./body.component.css']
+  selector: 'app-aplicativo',
+  templateUrl: './aplicativo.component.html',
+  styleUrls: ['./aplicativo.component.css']
 })
-export class BodyComponent implements OnInit {
+export class AplicativoComponent implements OnInit {
+
   cantidad_x = 0;
   cantidad_n = 0;
   cantidad_x_n = 0;
@@ -40,4 +41,5 @@ export class BodyComponent implements OnInit {
     return this.fact;
   }
   
+
 }

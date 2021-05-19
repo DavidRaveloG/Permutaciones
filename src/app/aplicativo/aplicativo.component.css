@@ -1,0 +1,15 @@
+.container p{
+    text-align: center;
+    font-size: 140%;
+}
+.container img{
+    display:block;
+    margin: auto;
+    width: 18%;
+    margin-bottom: 10px;
+    
+}
+.badge{
+    margin: 3px;
+    font-size: 150%;
+}
